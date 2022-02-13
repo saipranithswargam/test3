@@ -1,0 +1,115 @@
+div{
+    text-align: center;
+    
+}
+body{
+    margin: 0;
+    font-family: 'Meddon', cursive;
+    
+}
+h1{
+    color: #66BFBF;
+    font-size: 50px;
+    font-family: 'Lemonada', cursive;
+    /* padding-top: 20px; */
+    margin:50px 0px 20px 0px;
+    line-height: 2;
+}
+h1:hover{
+    color: thistle;
+}
+h2{
+    font-weight: normal;
+    color: #66BFBF;
+    font-size: 40px;
+}
+h3{
+    color: #66BFBF;
+}
+a{
+    color: #66BFBF;
+}
+p{
+    color: #40514E;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+hr{
+    width:20%;
+    border-style: none;
+    border-top: dotted;
+    border-color: #dbe0e0;
+}
+.cloud1{
+    position: absolute;
+    right: 300px;
+}
+.cloud2{ /* absolute positioning is as if we moverd or erased the tgs out of the flow*/
+    position: absolute;
+    bottom: 300px;
+
+}
+a{
+    color: #11999E;
+}
+a:hover{
+    color: thistle;
+}
+.top{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto; /*auto will align the eliment to center*/
+    /* text-align: left; */
+    line-height: 2;
+}
+.bottom-container{
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #77f5f5;
+}
+.python{
+    width: 25%;
+    /* float: left; here the text will float arounf the image by using this */
+}
+.cpp{
+    width: 25%;
+    /* float: left; */
+
+}
+/* .pyth-dis{
+    clear:left;
+
+} */
+.hearts:hover{
+    color: red;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4,  #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4,  #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
